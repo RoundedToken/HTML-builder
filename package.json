@@ -7,7 +7,8 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "ci:format": "prettier --check .",
-    "start:1": "node 01-read-file"
+    "start:1": "node 01-read-file",
+    "start:2": "node 02-write-file"
   },
   "author": "evgeniimal",
   "license": "ISC",
