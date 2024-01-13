@@ -10,7 +10,8 @@
     "start:1": "node 01-read-file",
     "start:2": "node 02-write-file",
     "start:3": "node 03-files-in-folder",
-    "start:4": "node 04-copy-directory"
+    "start:4": "node 04-copy-directory",
+    "start:5": "node 05-merge-styles"
   },
   "author": "evgeniimal",
   "license": "ISC",
