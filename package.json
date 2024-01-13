@@ -8,7 +8,8 @@
     "format": "prettier --write .",
     "ci:format": "prettier --check .",
     "start:1": "node 01-read-file",
-    "start:2": "node 02-write-file"
+    "start:2": "node 02-write-file",
+    "start:3": "node 03-files-in-folder"
   },
   "author": "evgeniimal",
   "license": "ISC",
