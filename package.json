@@ -9,7 +9,8 @@
     "ci:format": "prettier --check .",
     "start:1": "node 01-read-file",
     "start:2": "node 02-write-file",
-    "start:3": "node 03-files-in-folder"
+    "start:3": "node 03-files-in-folder",
+    "start:4": "node 04-copy-directory"
   },
   "author": "evgeniimal",
   "license": "ISC",
