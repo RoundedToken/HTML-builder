@@ -28,7 +28,8 @@ const folderPath = join(__dirname, folderName);
 })();
 
 function logFileInfoByTemp(file, size) {
-  const [fileName, fileExt] = file.split('.');
+  const [fileExt, ...fileNamePrefixes] = file.split('.').reverse();
+  const fileName = fileNamePrefixes.join('.');
 
   console.log(`${fileName} - ${fileExt} - ${size} bytes`);
 }
