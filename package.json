@@ -1,11 +1,13 @@
 {
   "name": "html-builder",
+  "type": "module",
   "version": "1.0.0",
   "description": "html-builder task for RSSchool",
   "scripts": {
     "lint": "eslint .",
     "format": "prettier --write .",
-    "ci:format": "prettier --check ."
+    "ci:format": "prettier --check .",
+    "start:1": "node 01-read-file"
   },
   "author": "evgeniimal",
   "license": "ISC",

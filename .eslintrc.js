@@ -1,5 +1,6 @@
 module.exports = {
   env: {
+    sourceType: 'module',
     commonjs: true,
     es2022: true,
     node: true,
